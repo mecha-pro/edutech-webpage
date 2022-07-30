@@ -9,7 +9,9 @@ padding: 0;
 /* --------------
  Background image
 ----------------- */
-
+.background-image{
+    background-image: url("../assets/images/working.png");
+}
 /*---------------
      Card images
  ------------------*/
