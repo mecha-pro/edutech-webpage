@@ -9,6 +9,8 @@
     <link rel="shortcut icon" href="./assets/images/icons/columns-gap.svg" type="image/x-icon">
     <!-- Style.css Link -->
     <link rel="stylesheet" href="./styles/style.css">
+    <!-- font icon Link -->
+    <script src="https://kit.fontawesome.com/4e6c12451b.js" crossorigin="anonymous"></script>
     <!-- bootstrap.min.css Link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </head>
@@ -191,7 +193,7 @@
         </div>
       </div>
     </div>
-    <div class="col">
+    <div class="col d-none d-sm-none d-md-none d-lg-block">
       <div class="card mb-3">
         <div class="row g-0">
           <div class="col-md-4">
@@ -212,7 +214,7 @@
         </div>
       </div>
     </div>
-    <div class="col">
+    <div class="col d-none d-sm-none d-md-none d-lg-block">
       <div class="card mb-3">
         <div class="row g-0">
           <div class="col-md-4">
@@ -233,7 +235,7 @@
         </div>
       </div>
     </div>
-    <div class="col">
+    <div class="col d-none d-sm-none d-md-none d-lg-block">
       <div class="card mb-3">
         <div class="row g-0">
           <div class="col-md-4">
@@ -263,13 +265,163 @@
   </div>
 </section>
 <!-- more     end button -->
+<!-- exploring institute start -->
+<section class="container">
 
+</section>
+<!-- exploring institute End -->
+<!-- register modal Start -->
+<section class="container">
+  <section class="bg-primary rounded-2 p-5 my-5">
+    <div class="row">
+      <div class="mt-5 col-lg-8 d-flex align-item-center text-white">
+          <div>
+            <h1>Ready to Join?</h1>
+            <p>Learn on your own time from top universities and businesses. Various courses in topics like business analytics, graphic design, Python, and more. Earn an affordable, university-issued credential from top schools</p>
+          </div>
+      </div>
+      <div class="col-lg-4 mt-lg-5 ms-md-5 ms-lg-0">
+              <button type="button" class="mt-5 ms-5 btn btn-outline-light btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="your contact e-mail">Register Now</button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="display: none;">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Fill-up Registration Details</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <form>
+                          <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">e-mail:</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                          </div>
+                          <div class="mb-3">
+                            <label for="message-text" class="col-form-label">Description:</label>
+                            <textarea class="form-control" id="message-text"></textarea>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Register</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+      </div>
+  </div>
+  </section>
+</section>
+<!-- register modal End -->
+<!-- accordian questions Start -->
+<section class="container">
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <strong>
+            What is the difference between flexbox & grid?
+          </strong>
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
+        <div class="accordion-body">
+          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+      <strong>
+        How is the frameworks bootstrap & tailwind css different?
+      </strong>
+    </button>
+</h2>
+<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample" style="">
+<div class="accordion-body">
+<strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header" id="headingThree">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+  <strong>What is CSS box model?</strong>
+</button>
+</h2>
+<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample" style="">
+<div class="accordion-body">
+<strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header" id="heading-tetra">
+  <button class="accordion-button collapsed btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-tetra" aria-expanded="true" aria-controls="collapse-tetra">
+    <strong>What is a semantic tag?</strong>
+  </button>
+</h2>
+<div id="collapse-tetra" class="accordion-collapse collapse" aria-labelledby="heading-tetra" data-bs-parent="#accordionExample" style="">
+  <div class="accordion-body">
+    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+  </div>
+</div>
+</div>
+</div>
+</section>
+<!-- accordian questions End -->
+<!-- trusted companies Start -->
+<section class="container m-5">
+  <div>
+    <h1 class="my-5 fw-bold text-center">Trusted by over 800+ Companies</h1>
+  </div>
+  <figure class="my-5 row d-none d-sm-none d-md-none d-lg-block">
+    <!-- span.col-2*6>img[src="./assets/images/company/company-$.png"] -->
+    <span class="col-2"><img src="./assets/images/company/company-1.png" alt=""></span>
+    <span class="col-2"><img src="./assets/images/company/company-2.png" alt=""></span>
+    <span class="col-2"><img src="./assets/images/company/company-3.png" alt=""></span>
+    <span class="col-2"><img src="./assets/images/company/company-4.png" alt=""></span>
+    <span class="col-2"><img src="./assets/images/company/company-5.png" alt=""></span>
+    <span class="col-2"><img src="./assets/images/company/company-6.png" alt=""></span>
+  </figure>
+</section>
+<!-- trusted companies End -->
 </main>
-<footer>
-<section class="">
-  
+<!-- footer start -->
+<footer class="">
+  <section class="mt-5 bg-dark d-flex align-items-center justify-content-evenly">
+  <div class="">
+    <div>
+      <h1 class="m-3 text-white">Course Arena</h1>
+    </div>
+    <div>
+      <p class="text-white text-center text-wrap sm-h4">
+        Office 41, Zowaya Complex, Ghala Muscat,
+      </p>
+    </div>
+    <div>
+      <p class="text-white text-center text-wrap sm-h4">
+        Sultanate of Oman
+      </p>
+    </div>
+    <div class="d-flex justify-content-center">
+        <a class="nav-link text-secondary" href="#">Privacy Policy</a>
+        <span>.......</span>
+        <span class="text-secondary"> | </span>
+        <span>.......</span>
+        <a class="nav-link text-secondary" href="#">Terms of Use</a>
+    </div>
+    <div class="d-flex justify-content-evenly mb-5">
+      <a href="https://twitter.com/twitter" target="_blank" class="btn btn-outline-secondary border-0"><i class="fa-brands fa-twitter"></i></a>
+      <a href="https://discord.com/safety" target="_blank" class="btn btn-outline-secondary border-0"><i class="fa-brands fa-discord"></i></a>
+      <a href="https://matrix.org/docs/projects/try-matrix-now/" target="_blank" class="btn btn-outline-secondary border-0"><i class="fa-light fa-hashtag"></i></i></button>
+      <a href="https://www.reddit.com/new/" target="_blank" class="btn btn-outline-secondary border-0"><i class="fa-brands fa-reddit"></i></a>
+    </div>
+  </div>
 </section>
 </footer>
+<!-- footer End -->
 <!-- bundle.min.Js -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 <!-- Popperjs -->
